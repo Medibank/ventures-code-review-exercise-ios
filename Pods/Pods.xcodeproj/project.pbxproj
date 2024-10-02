@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B41BDC5DAB2B58B7F011BE397EFB1D /* Pods-MediBankTest-MediBankTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2942A75FCA796C2AADB3BE3CBB18956C /* Pods-MediBankTest-MediBankTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A985DDC6AE1C3030EB29CDF577BC494 /* Pods-MediBankTest-MediBankTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1989424BFDD48AFFD4A0711E53A25E /* Pods-MediBankTest-MediBankTestUITests-dummy.m */; };
+		49565F8F6DD9646C5452805EAA94B5FD /* Pods-MediBankTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E58D33A905E2AD0394F2CC49A3DD14A /* Pods-MediBankTestTests-dummy.m */; };
+		495A15236E91E324394B25E8117B40F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		539DC45700C467E5242530BBDA84915F /* Pods-MediBankTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E70FB90E188A1650EE778DD4D0063B0 /* Pods-MediBankTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F764DAC4101461705DF553EE1419C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		57B8030D4A8529121583EFEB71A0E432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		65EE664051AB9ECC07E3A7C37CC1F350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		9F43615C18507052EEFFF1010369B608 /* SwiftCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D55DBD601AB40E716437F8B79CCE60 /* SwiftCoordinator-dummy.m */; };
+		A5F1B473E29132E2216CA697B875A014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		AA98B23DA480E9B1C249F554DC032720 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252D73801375E3D59EEDF5AD73AEC76 /* Navigator.swift */; };
+		B6720EF35F85793DF478E29290C18D0D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A3976141976DD3CF7711C331FC4EA /* Coordinator.swift */; };
+		B73C1251EE5F4A92367270AEA3383D3C /* SwiftCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1165A3F4D2A978E66104964E88C3CD8 /* SwiftCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D554C586689C25612E7129DB53DA8C /* Pods-MediBankTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF04C31BA63DF2CC85F6992EBD040468 /* Pods-MediBankTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB0B0E55F480223321D303AE802698FD /* Pods-MediBankTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4617732911CB78FA96126B098AA8407 /* Pods-MediBankTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36FD8CDB7FA3530D40C8F17EF34CAFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CAE2BF64735EA0413F49A47CE21036B;
+			remoteInfo = SwiftCoordinator;
+		};
+		5DE7074420043FAD758890BC6C4F6BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC18472985AF3009962E8F0D5A4FE90;
+			remoteInfo = "Pods-MediBankTest";
+		};
+		94DF0BDBA800F31EFAB3CA0B641020E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CAE2BF64735EA0413F49A47CE21036B;
+			remoteInfo = SwiftCoordinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E70FB90E188A1650EE778DD4D0063B0 /* Pods-MediBankTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediBankTestTests-umbrella.h"; sourceTree = "<group>"; };
+		2942A75FCA796C2AADB3BE3CBB18956C /* Pods-MediBankTest-MediBankTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediBankTest-MediBankTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		2B12A639B97B2378EC39BBF89F89ACA2 /* SwiftCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		31ADDACB5B0A156B02D985A2E1E336C0 /* SwiftCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCoordinator.modulemap; sourceTree = "<group>"; };
+		31D55DBD601AB40E716437F8B79CCE60 /* SwiftCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCoordinator-dummy.m"; sourceTree = "<group>"; };
+		35B337B76DDBFCE1A5683A950AEC68FA /* Pods-MediBankTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediBankTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38A4CDA7D561A7EA61F4E9F9D66D44F1 /* Pods-MediBankTest-MediBankTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediBankTest-MediBankTestUITests-Info.plist"; sourceTree = "<group>"; };
+		3E53F9BB86E7610FDDA41C913452F928 /* Pods-MediBankTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediBankTestTests-Info.plist"; sourceTree = "<group>"; };
+		3EE8F1BF17B5F6CF250AA407D6203C5B /* Pods-MediBankTest-MediBankTestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MediBankTest-MediBankTestUITests"; path = Pods_MediBankTest_MediBankTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B5B93D3A56D27EEA89D88228C7DA1F /* Pods-MediBankTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediBankTest.debug.xcconfig"; sourceTree = "<group>"; };
+		48669E3EBE2A34AB95E74B1D2E708021 /* Pods-MediBankTest-MediBankTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediBankTest-MediBankTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D11D9BB8B8374557EE71535534AAB74 /* Pods-MediBankTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediBankTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50F6909387418BF7842F6C148E7CF5A3 /* Pods-MediBankTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediBankTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E58D33A905E2AD0394F2CC49A3DD14A /* Pods-MediBankTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediBankTestTests-dummy.m"; sourceTree = "<group>"; };
+		6F9FB4C74C89151019ADEB1D1BA3FC11 /* Pods-MediBankTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediBankTest-Info.plist"; sourceTree = "<group>"; };
+		7143DB9B13FD86F130EF407E460C3A6B /* Pods-MediBankTest-MediBankTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediBankTest-MediBankTestUITests.modulemap"; sourceTree = "<group>"; };
+		837D82BF08B938931B26DB54FCAD8597 /* SwiftCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCoordinator-Info.plist"; sourceTree = "<group>"; };
+		8C99533FD0947A8FB9901E42007C5EE9 /* Pods-MediBankTest-MediBankTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediBankTest-MediBankTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EC4FC18631FB515731B2D6E144B3B7D /* Pods-MediBankTest-MediBankTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MediBankTest-MediBankTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		980E25286FD09C56919739379565208E /* Pods-MediBankTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediBankTestTests.modulemap"; sourceTree = "<group>"; };
+		9C744B5E9395DE0BDC0F77E12A04B836 /* Pods-MediBankTestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MediBankTestTests"; path = Pods_MediBankTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFFFB6023DDF4C727FF213B93E377DA /* Pods-MediBankTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediBankTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3AED1D017C04631E46446D793A895CB /* Pods-MediBankTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediBankTest.modulemap"; sourceTree = "<group>"; };
+		AC56D534486C5E0CAED5F5165CAA1718 /* Pods-MediBankTest-MediBankTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediBankTest-MediBankTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1D67369281631FD6CC6798701E6B008 /* Pods-MediBankTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediBankTest.release.xcconfig"; sourceTree = "<group>"; };
+		B252D73801375E3D59EEDF5AD73AEC76 /* Navigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navigator.swift; path = Source/Navigator.swift; sourceTree = "<group>"; };
+		B5AEB124910EBE02FB7915F06EB7C619 /* SwiftCoordinator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCoordinator; path = SwiftCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0D3AA1465605AB523122C02AB0441D /* Pods-MediBankTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MediBankTest-frameworks.sh"; sourceTree = "<group>"; };
+		C38AC0489E17F53939632292DAD2144D /* Pods-MediBankTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediBankTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB6A3976141976DD3CF7711C331FC4EA /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Source/Coordinator.swift; sourceTree = "<group>"; };
+		CDA905D19D67B0C9FF2B99D1B7068267 /* SwiftCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCoordinator.debug.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4617732911CB78FA96126B098AA8407 /* Pods-MediBankTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediBankTest-dummy.m"; sourceTree = "<group>"; };
+		D791CD1F8E88BA11B4765D361E169036 /* Pods-MediBankTest-MediBankTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediBankTest-MediBankTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF04C31BA63DF2CC85F6992EBD040468 /* Pods-MediBankTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediBankTest-umbrella.h"; sourceTree = "<group>"; };
+		E1165A3F4D2A978E66104964E88C3CD8 /* SwiftCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCoordinator-umbrella.h"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAE87F9543FFE725653BD02D5B61FA97 /* Pods-MediBankTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediBankTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAD440FB9564B1C25DB79B981BD0689A /* Pods-MediBankTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MediBankTest"; path = Pods_MediBankTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC007A66707BE77DFEAD8F0218563C0B /* SwiftCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCoordinator.release.xcconfig; sourceTree = "<group>"; };
+		FE1989424BFDD48AFFD4A0711E53A25E /* Pods-MediBankTest-MediBankTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediBankTest-MediBankTestUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F6502EEC22BA52BE6A77130F43460B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A15236E91E324394B25E8117B40F4 /* Foundation.framework in Frameworks */,
+				65EE664051AB9ECC07E3A7C37CC1F350 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DFCADC3135F329A0AB9C88C7A5931C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F1B473E29132E2216CA697B875A014 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7C048E060D889A512ADFADD1184E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B8030D4A8529121583EFEB71A0E432 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F281ABEFBED36379239009A9D62DB1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F764DAC4101461705DF553EE1419C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06262D1892181E91D035222185A68ABB /* SwiftCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A3976141976DD3CF7711C331FC4EA /* Coordinator.swift */,
+				B252D73801375E3D59EEDF5AD73AEC76 /* Navigator.swift */,
+				8CF3DD04EBAF3565C73926B4B211807C /* Support Files */,
+			);
+			name = SwiftCoordinator;
+			path = SwiftCoordinator;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FE5DFE386D23A3EDDC5A4A276DE03A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06262D1892181E91D035222185A68ABB /* SwiftCoordinator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27EDE787C23C416ACA5F9C8B84363D01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFEDB82ACF1755193C82BD4EA786416 /* Pods-MediBankTest */,
+				9D06D5D0D3C352D6FBC0668DE3027999 /* Pods-MediBankTest-MediBankTestUITests */,
+				EFEBE97E27CE7A7883936F89C976DE66 /* Pods-MediBankTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F644868041B0BF0738184AE2D00C1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD440FB9564B1C25DB79B981BD0689A /* Pods-MediBankTest */,
+				3EE8F1BF17B5F6CF250AA407D6203C5B /* Pods-MediBankTest-MediBankTestUITests */,
+				9C744B5E9395DE0BDC0F77E12A04B836 /* Pods-MediBankTestTests */,
+				B5AEB124910EBE02FB7915F06EB7C619 /* SwiftCoordinator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8CF3DD04EBAF3565C73926B4B211807C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31ADDACB5B0A156B02D985A2E1E336C0 /* SwiftCoordinator.modulemap */,
+				31D55DBD601AB40E716437F8B79CCE60 /* SwiftCoordinator-dummy.m */,
+				837D82BF08B938931B26DB54FCAD8597 /* SwiftCoordinator-Info.plist */,
+				2B12A639B97B2378EC39BBF89F89ACA2 /* SwiftCoordinator-prefix.pch */,
+				E1165A3F4D2A978E66104964E88C3CD8 /* SwiftCoordinator-umbrella.h */,
+				CDA905D19D67B0C9FF2B99D1B7068267 /* SwiftCoordinator.debug.xcconfig */,
+				FC007A66707BE77DFEAD8F0218563C0B /* SwiftCoordinator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCoordinator";
+			sourceTree = "<group>";
+		};
+		9D06D5D0D3C352D6FBC0668DE3027999 /* Pods-MediBankTest-MediBankTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7143DB9B13FD86F130EF407E460C3A6B /* Pods-MediBankTest-MediBankTestUITests.modulemap */,
+				8C99533FD0947A8FB9901E42007C5EE9 /* Pods-MediBankTest-MediBankTestUITests-acknowledgements.markdown */,
+				AC56D534486C5E0CAED5F5165CAA1718 /* Pods-MediBankTest-MediBankTestUITests-acknowledgements.plist */,
+				FE1989424BFDD48AFFD4A0711E53A25E /* Pods-MediBankTest-MediBankTestUITests-dummy.m */,
+				8EC4FC18631FB515731B2D6E144B3B7D /* Pods-MediBankTest-MediBankTestUITests-frameworks.sh */,
+				38A4CDA7D561A7EA61F4E9F9D66D44F1 /* Pods-MediBankTest-MediBankTestUITests-Info.plist */,
+				2942A75FCA796C2AADB3BE3CBB18956C /* Pods-MediBankTest-MediBankTestUITests-umbrella.h */,
+				48669E3EBE2A34AB95E74B1D2E708021 /* Pods-MediBankTest-MediBankTestUITests.debug.xcconfig */,
+				D791CD1F8E88BA11B4765D361E169036 /* Pods-MediBankTest-MediBankTestUITests.release.xcconfig */,
+			);
+			name = "Pods-MediBankTest-MediBankTestUITests";
+			path = "Target Support Files/Pods-MediBankTest-MediBankTestUITests";
+			sourceTree = "<group>";
+		};
+		BCFEDB82ACF1755193C82BD4EA786416 /* Pods-MediBankTest */ = {
+			isa = PBXGroup;
+			children = (
+				A3AED1D017C04631E46446D793A895CB /* Pods-MediBankTest.modulemap */,
+				35B337B76DDBFCE1A5683A950AEC68FA /* Pods-MediBankTest-acknowledgements.markdown */,
+				9EFFFB6023DDF4C727FF213B93E377DA /* Pods-MediBankTest-acknowledgements.plist */,
+				D4617732911CB78FA96126B098AA8407 /* Pods-MediBankTest-dummy.m */,
+				BE0D3AA1465605AB523122C02AB0441D /* Pods-MediBankTest-frameworks.sh */,
+				6F9FB4C74C89151019ADEB1D1BA3FC11 /* Pods-MediBankTest-Info.plist */,
+				DF04C31BA63DF2CC85F6992EBD040468 /* Pods-MediBankTest-umbrella.h */,
+				40B5B93D3A56D27EEA89D88228C7DA1F /* Pods-MediBankTest.debug.xcconfig */,
+				B1D67369281631FD6CC6798701E6B008 /* Pods-MediBankTest.release.xcconfig */,
+			);
+			name = "Pods-MediBankTest";
+			path = "Target Support Files/Pods-MediBankTest";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				1FE5DFE386D23A3EDDC5A4A276DE03A9 /* Pods */,
+				2F644868041B0BF0738184AE2D00C1CA /* Products */,
+				27EDE787C23C416ACA5F9C8B84363D01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEBE97E27CE7A7883936F89C976DE66 /* Pods-MediBankTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				980E25286FD09C56919739379565208E /* Pods-MediBankTestTests.modulemap */,
+				EAE87F9543FFE725653BD02D5B61FA97 /* Pods-MediBankTestTests-acknowledgements.markdown */,
+				C38AC0489E17F53939632292DAD2144D /* Pods-MediBankTestTests-acknowledgements.plist */,
+				6E58D33A905E2AD0394F2CC49A3DD14A /* Pods-MediBankTestTests-dummy.m */,
+				3E53F9BB86E7610FDDA41C913452F928 /* Pods-MediBankTestTests-Info.plist */,
+				1E70FB90E188A1650EE778DD4D0063B0 /* Pods-MediBankTestTests-umbrella.h */,
+				4D11D9BB8B8374557EE71535534AAB74 /* Pods-MediBankTestTests.debug.xcconfig */,
+				50F6909387418BF7842F6C148E7CF5A3 /* Pods-MediBankTestTests.release.xcconfig */,
+			);
+			name = "Pods-MediBankTestTests";
+			path = "Target Support Files/Pods-MediBankTestTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A038E35916FD41CA4FA1393F46B0B47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539DC45700C467E5242530BBDA84915F /* Pods-MediBankTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A0C3721AC7B475EC6654B57B2C15F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B41BDC5DAB2B58B7F011BE397EFB1D /* Pods-MediBankTest-MediBankTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC751EB1692736191E1AFC58E127B5A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73C1251EE5F4A92367270AEA3383D3C /* SwiftCoordinator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF185A218857ED1A5B9BC61248A3F656 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D554C586689C25612E7129DB53DA8C /* Pods-MediBankTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BC18472985AF3009962E8F0D5A4FE90 /* Pods-MediBankTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E20DA2823C2909CA2301F62C31844A4 /* Build configuration list for PBXNativeTarget "Pods-MediBankTest" */;
+			buildPhases = (
+				EF185A218857ED1A5B9BC61248A3F656 /* Headers */,
+				253B22BFA5AE4BBD6D08FE9D760C7296 /* Sources */,
+				F281ABEFBED36379239009A9D62DB1C9 /* Frameworks */,
+				38012E5ADC89484B65ACB8AFDD57596A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C20005E2E4632AE1A57DF1D7E90AE2A /* PBXTargetDependency */,
+			);
+			name = "Pods-MediBankTest";
+			productName = Pods_MediBankTest;
+			productReference = FAD440FB9564B1C25DB79B981BD0689A /* Pods-MediBankTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		376526F6396E444E3C59FD4E018A6D1A /* Pods-MediBankTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEBAD6C7C64B548DA0D541740F2E5F4 /* Build configuration list for PBXNativeTarget "Pods-MediBankTestTests" */;
+			buildPhases = (
+				0A038E35916FD41CA4FA1393F46B0B47 /* Headers */,
+				C49B60388736FDECC14CDA6A60B62754 /* Sources */,
+				EB7C048E060D889A512ADFADD1184E2D /* Frameworks */,
+				7855DFDE60AFC7E9E7C80A82CBD5D3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD89C982EDE842D94FE9FAD04FE1F72 /* PBXTargetDependency */,
+			);
+			name = "Pods-MediBankTestTests";
+			productName = Pods_MediBankTestTests;
+			productReference = 9C744B5E9395DE0BDC0F77E12A04B836 /* Pods-MediBankTestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CAE2BF64735EA0413F49A47CE21036B /* SwiftCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB0E261A6868E7A52FF8B3A6A64EF2E /* Build configuration list for PBXNativeTarget "SwiftCoordinator" */;
+			buildPhases = (
+				BC751EB1692736191E1AFC58E127B5A2 /* Headers */,
+				0B7725BA929DC7CA16C7E04BE33565BC /* Sources */,
+				94F6502EEC22BA52BE6A77130F43460B /* Frameworks */,
+				D2B876BB5AEA1447EC294FA2A92362F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCoordinator;
+			productName = SwiftCoordinator;
+			productReference = B5AEB124910EBE02FB7915F06EB7C619 /* SwiftCoordinator */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF1FAB634433D29C1BB10DC9A47D05B4 /* Pods-MediBankTest-MediBankTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F50C8D027CFFD76AB236E3D86930E7 /* Build configuration list for PBXNativeTarget "Pods-MediBankTest-MediBankTestUITests" */;
+			buildPhases = (
+				31A0C3721AC7B475EC6654B57B2C15F6 /* Headers */,
+				69EFE5F3FAF68AD2FE2DFEC927A95116 /* Sources */,
+				E2DFCADC3135F329A0AB9C88C7A5931C /* Frameworks */,
+				5DCAFE6AA03889E8C8B9B4A71E38F7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				007931967ACA4F5D327DC72A6B5B93DB /* PBXTargetDependency */,
+			);
+			name = "Pods-MediBankTest-MediBankTestUITests";
+			productName = Pods_MediBankTest_MediBankTestUITests;
+			productReference = 3EE8F1BF17B5F6CF250AA407D6203C5B /* Pods-MediBankTest-MediBankTestUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2F644868041B0BF0738184AE2D00C1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC18472985AF3009962E8F0D5A4FE90 /* Pods-MediBankTest */,
+				EF1FAB634433D29C1BB10DC9A47D05B4 /* Pods-MediBankTest-MediBankTestUITests */,
+				376526F6396E444E3C59FD4E018A6D1A /* Pods-MediBankTestTests */,
+				9CAE2BF64735EA0413F49A47CE21036B /* SwiftCoordinator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38012E5ADC89484B65ACB8AFDD57596A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAFE6AA03889E8C8B9B4A71E38F7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7855DFDE60AFC7E9E7C80A82CBD5D3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B876BB5AEA1447EC294FA2A92362F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7725BA929DC7CA16C7E04BE33565BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6720EF35F85793DF478E29290C18D0D /* Coordinator.swift in Sources */,
+				AA98B23DA480E9B1C249F554DC032720 /* Navigator.swift in Sources */,
+				9F43615C18507052EEFFF1010369B608 /* SwiftCoordinator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253B22BFA5AE4BBD6D08FE9D760C7296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0B0E55F480223321D303AE802698FD /* Pods-MediBankTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EFE5F3FAF68AD2FE2DFEC927A95116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A985DDC6AE1C3030EB29CDF577BC494 /* Pods-MediBankTest-MediBankTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49B60388736FDECC14CDA6A60B62754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49565F8F6DD9646C5452805EAA94B5FD /* Pods-MediBankTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		007931967ACA4F5D327DC72A6B5B93DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCoordinator;
+			target = 9CAE2BF64735EA0413F49A47CE21036B /* SwiftCoordinator */;
+			targetProxy = 36FD8CDB7FA3530D40C8F17EF34CAFBB /* PBXContainerItemProxy */;
+		};
+		1C20005E2E4632AE1A57DF1D7E90AE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCoordinator;
+			target = 9CAE2BF64735EA0413F49A47CE21036B /* SwiftCoordinator */;
+			targetProxy = 94DF0BDBA800F31EFAB3CA0B641020E8 /* PBXContainerItemProxy */;
+		};
+		BCD89C982EDE842D94FE9FAD04FE1F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MediBankTest";
+			target = 1BC18472985AF3009962E8F0D5A4FE90 /* Pods-MediBankTest */;
+			targetProxy = 5DE7074420043FAD758890BC6C4F6BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05CDA59D2A6D6A365B17B4DCAC6EBE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D791CD1F8E88BA11B4765D361E169036 /* Pods-MediBankTest-MediBankTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediBankTest-MediBankTestUITests/Pods-MediBankTest-MediBankTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediBankTest-MediBankTestUITests/Pods-MediBankTest-MediBankTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DE77D7108AD44E2B262254A467A844F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48669E3EBE2A34AB95E74B1D2E708021 /* Pods-MediBankTest-MediBankTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediBankTest-MediBankTestUITests/Pods-MediBankTest-MediBankTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediBankTest-MediBankTestUITests/Pods-MediBankTest-MediBankTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C659D03A3A03604E462C841F2E7A1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D67369281631FD6CC6798701E6B008 /* Pods-MediBankTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediBankTest/Pods-MediBankTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediBankTest/Pods-MediBankTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3326A9F4787224578D88D294A1C859E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D11D9BB8B8374557EE71535534AAB74 /* Pods-MediBankTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediBankTestTests/Pods-MediBankTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediBankTestTests/Pods-MediBankTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B9E5104DB1290E6F2A5D4E99601EDC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA905D19D67B0C9FF2B99D1B7068267 /* SwiftCoordinator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCoordinator/SwiftCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCoordinator/SwiftCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCoordinator/SwiftCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCoordinator;
+				PRODUCT_NAME = SwiftCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB70A0BC1C7B33765236A5C128A26952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC007A66707BE77DFEAD8F0218563C0B /* SwiftCoordinator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCoordinator/SwiftCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCoordinator/SwiftCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCoordinator/SwiftCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCoordinator;
+				PRODUCT_NAME = SwiftCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEED8E7BD31DA587DB2D331C58115BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F6909387418BF7842F6C148E7CF5A3 /* Pods-MediBankTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediBankTestTests/Pods-MediBankTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediBankTestTests/Pods-MediBankTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF56F92E48924CB2AEAA1096D39A66EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B5B93D3A56D27EEA89D88228C7DA1F /* Pods-MediBankTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MediBankTest/Pods-MediBankTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MediBankTest/Pods-MediBankTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E20DA2823C2909CA2301F62C31844A4 /* Build configuration list for PBXNativeTarget "Pods-MediBankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF56F92E48924CB2AEAA1096D39A66EF /* Debug */,
+				2C659D03A3A03604E462C841F2E7A1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEBAD6C7C64B548DA0D541740F2E5F4 /* Build configuration list for PBXNativeTarget "Pods-MediBankTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3326A9F4787224578D88D294A1C859E5 /* Debug */,
+				CEED8E7BD31DA587DB2D331C58115BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB0E261A6868E7A52FF8B3A6A64EF2E /* Build configuration list for PBXNativeTarget "SwiftCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E5104DB1290E6F2A5D4E99601EDC54 /* Debug */,
+				CB70A0BC1C7B33765236A5C128A26952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F50C8D027CFFD76AB236E3D86930E7 /* Build configuration list for PBXNativeTarget "Pods-MediBankTest-MediBankTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE77D7108AD44E2B262254A467A844F /* Debug */,
+				05CDA59D2A6D6A365B17B4DCAC6EBE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

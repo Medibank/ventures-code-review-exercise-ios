@@ -1,0 +1,73 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+DerivedData
+Build
+.build
+.vscode
+.swiftpm
+pushed_version.txt
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.bcsymbolmap
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.DS_Store
+*.log
+fastlane.sh
+/fastlane/logs/
+/fastlane/test_output/
+/fastlane/xcov_report/
+/fastlane/README.md
+/fastlane/report.xml
+/fastlane/bitrise.yml
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*dSYM.zip
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+# Pods/
+# Carthage/
+# ExternalFrameworks/
+
+### Mock server ##
+
+# Node Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Mock-server (Mockoon) Node Dependency directories
+scripts/mock-server/node_modules
+scripts/mock-server/node_modules/*
+scripts/mock-server/jspm_packages/
+
+# Custom build and IDE nonsense paths
+.build
+.vscode

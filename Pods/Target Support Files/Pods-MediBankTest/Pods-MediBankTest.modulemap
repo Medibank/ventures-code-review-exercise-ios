@@ -1,0 +1,6 @@
+framework module Pods_MediBankTest {
+  umbrella header "Pods-MediBankTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
