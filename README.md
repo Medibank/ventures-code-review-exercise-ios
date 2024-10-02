@@ -1,8 +1,8 @@
 # Technical Interview - Code Review Exercise
 
-Part of our engineering hiring process is a live code review exercise. 
+Part of our engineering hiring process is a technical interview containing a live code review exercise. 
 
-You will look at the code in this repository and review it, as though it had been submitted as a PR.
+During the technical interview, you will be asked to review the code in this repository, as though it had been submitted as a PR.
 
 ## Instructions
 
