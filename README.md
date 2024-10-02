@@ -12,4 +12,4 @@ Please have the project loaded and ready to go in Xcode at the start of the inte
 
 This is a code review exercise, not a coding exercise, so please **do not edit** the code prior to the interview. You are encouraged to familiarise yourself with the code, however.
 
-For context, the code in this respository was one candidate's response to a take-home coding challenge for a job application. [Click here to view the original requirements.](https://github.com/Medibank/coding-challenge-ios/tree/69b7ac75a678fa93d5095a751dac91fbbadc2e03)
+For context, the code in this repository was one candidate's response to a take-home coding challenge for a job application. [Click here to view the original requirements.](https://github.com/Medibank/coding-challenge-ios/tree/69b7ac75a678fa93d5095a751dac91fbbadc2e03)
